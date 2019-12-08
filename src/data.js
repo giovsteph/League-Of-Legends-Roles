@@ -1,7 +1,12 @@
-/* Manejo de data */
+import LoL from './data/lol/lol.js'
 
-// esta es una función de ejemplo
 
-export const example = () => {
-  return 'example';
+
+//FILTER CLASSES
+const filterByClass = (claseSeleccionada) => {
+    let classes = LoL.data.filter((e) => e.tags.includes(claseSeleccionada));
+    return classes
 };
+
+
+export { filterByClass };
