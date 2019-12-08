@@ -1,0 +1,227 @@
+/* body {
+    
+} */
+
+body {
+    background-image: url(./imgs/fondo.jpg);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(7, 79, 91, 0.6);
+    color: #C1953A;
+    padding: 0.5rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+.header a {
+    color: #C1953A;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    opacity: 0.9;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: rgba(230, 142, 145, 0.3);
+    color: white;
+}
+
+
+/*para empujar y que el header no tape */
+
+#main,
+#learnMorePage {
+    padding-top: 6rem;
+}
+
+.footer {
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+/*LISTA DESPLEGABLE*/
+
+
+/*funcionalidad*/
+
+.item ul,
+.item input[type="checkbox"] {
+    display: none;
+}
+
+.item input:checked~ul {
+    display: block;
+}
+
+label:hover {
+    cursor: pointer;
+    background: rgba(230, 142, 145, 0.3);
+    color: white;
+}
+
+label {
+    display: block;
+    z-index: 1;
+    position: relative;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.listaLineas {
+    width: 10%;
+    float: left;
+    position: fixed;
+    list-style: none;
+    text-decoration: none;
+    background: rgba(120, 142, 145, 0.8);
+}
+
+#learnMorePage {
+    display: none;
+    background: rgba(230, 142, 145, 0.3);
+}
+
+#map {
+    width: 30%;
+    margin: 0 50px 0 50px;
+    float: left;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #161C20;
+}
+
+h1:hover {
+    color: white;
+}
+
+p {
+    margin: 0 3em 0 5em;
+}
+
+#link {
+    text-decoration: salmon;
+}
+
+
+/*IMAGEN DEL CAMPEON*/
+
+#imagen:hover {
+    cursor: pointer;
+}
+
+#imagen {
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: ridge;
+    border-color: #074F5B;
+    border-width: thin;
+}
+
+
+/*Nombre del campeon*/
+
+h3 {
+    justify-content: center;
+    text-align: center;
+    color: WHITE;
+    font-size: 4vh;
+    margin: 0 0 0 0;
+}
+
+
+/*TITULO DEL CAMPEON*/
+
+h4 {
+    justify-content: center;
+    text-align: center;
+    color: #87C1E2;
+    font-size: 3vh;
+    text-transform: capitalize;
+    margin: 0 0 25px 0;
+}
+
+#grid {
+    display: grid;
+    max-width: 90%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 1%;
+    grid-row-gap: 0.09%;
+    margin: 0 auto;
+}
+
+div.campeon {
+    justify-content: center;
+    max-width: 95%;
+    border-style: solid;
+    background: rgba(1, 10, 19, 0.8);
+    border-color: #074F5B;
+    border-width: thin;
+}
+
+div.campeon:hover {
+    border-style: ridge;
+    background: rgba(1, 10, 19, 1);
+    border-color: #074F5B;
+    border-width: medium;
+}
