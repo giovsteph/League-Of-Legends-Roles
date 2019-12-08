@@ -10,3 +10,6 @@ const filterByClass = (claseSeleccionada) => {
 
 
 export { filterByClass };
+
+
+//comentario de prueba
