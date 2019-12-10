@@ -10,3 +10,15 @@ const filterByClass = (claseSeleccionada) => {
 
 
 export { filterByClass };
+
+
+
+// const linea = LoL.data.filter(line =>
+//     line.tags.includes('Mage' || 'Assassin'));
+
+// console.log(linea);
+
+
+
+const champeons = LoL.data.filter((type) => type.tags == "Mage" || "Assassin");
+console.log(champeons)
