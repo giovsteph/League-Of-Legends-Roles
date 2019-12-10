@@ -45,7 +45,25 @@ for (let campeon of LOL.data) {
 };
 
 
+//FUNCIONALIDAD BOTON IR ARRIBA
 
+
+const scrollFunction = () => {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        mybutton.style.display = 'block';
+    } else {
+        mybutton.style.display = 'none';
+    }
+}
+let mybutton = document.getElementById('myBtn');
+window.onscroll = function() { scrollFunction() };
+
+const topFunction = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+document.getElementById('myBtn').addEventListener('click', topFunction)
 
 
 // document.querySelectorAll('.imagen').forEach(div => {
