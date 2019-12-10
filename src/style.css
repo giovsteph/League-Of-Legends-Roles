@@ -28,12 +28,12 @@ body {
     transform: rotate(-90deg);
     cursor: pointer;
     padding: 10px;
-    border-radius: 15%;
-    width: 8%;
+    border-radius: 100%;
+    width: 4%;
 }
 
 #myBtn:hover {
-    background-color: rgba(150, 5, 5, 0.6);
+    background-color: rgba(193, 149, 58, 0.8);
 }
 
 .container {
