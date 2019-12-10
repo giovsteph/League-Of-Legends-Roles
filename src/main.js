@@ -10,7 +10,7 @@ document.getElementById("showAllBtn").addEventListener('click', function() {
     for (let campeon of LOL.data) {
         const template = document.createElement('div');
         template.classList.add('campeon');
-        template.innerHTML = '<br>' + '<img id="imagen" class="imagen" src="' + campeon.splash + '"><h3>' + campeon.name +
+        template.innerHTML = '<br>' + '<img id="imagen" class="imagen" src="' + campeon.splash + '"><h3 id="h3">' + campeon.name +
             '</h3>' + '<h4>' + campeon.title + '</h4>';
 
 
@@ -43,6 +43,8 @@ for (let campeon of LOL.data) {
 
 
 };
+
+
 
 
 
