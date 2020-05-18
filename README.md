@@ -9,7 +9,7 @@
 * [3. User Stories](#3-user-stories)
 * [4. Prototypes](#4-prototypes)
 * [5. Finished Product](#5-finished-product)
-* [6. Authors](#6-authors)
+* [6. Author](#6-authors)
 * [7. Acknowledgments](#7-acknowledgements)
 
 ***
@@ -17,7 +17,7 @@
 ## 1. Introduction
 There's a lot of data about the LoL champions out there, but sometimes you just want to know what are the character roles. Like... can I play Zyra in a mid lane? 
 
-## 2. Overview and Motivation
+## 2. Overview
 ### Who uses LoL-Roles.
 
 Web app designed for new players who don't really know what the roles of the champions are.
