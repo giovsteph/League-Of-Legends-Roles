@@ -1,4 +1,4 @@
-![logo](https://i.pinimg.com/originals/55/74/a5/5574a51f37170eb73a6a42a8d8b2f4bb.png)
+![logo](https://lol-stats.net/uploads/4oFJWfOt73gESxXmHb0aAyij5wSDnQU5shtOjf8p.jpeg)
 # League Of Legends Roles
 >Find your perfect champion!.
 
